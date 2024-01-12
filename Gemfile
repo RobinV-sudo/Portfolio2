@@ -50,6 +50,8 @@ gem "font-awesome-sass"
 
 gem "autoprefixer-rails"
 
+gem "dotenv-rails"
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
