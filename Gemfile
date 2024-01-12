@@ -54,6 +54,8 @@ gem "dotenv-rails"
 
 gem "cloudinary"
 
+gem "devise"
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
