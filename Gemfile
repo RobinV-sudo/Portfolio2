@@ -52,6 +52,8 @@ gem "autoprefixer-rails"
 
 gem "dotenv-rails"
 
+gem "cloudinary"
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
