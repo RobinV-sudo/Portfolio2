@@ -56,6 +56,8 @@ gem "cloudinary"
 
 gem "devise"
 
+gem 'webpacker'
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
