@@ -58,6 +58,8 @@ gem "devise"
 
 gem 'webpacker'
 
+gem "geocoder"
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
