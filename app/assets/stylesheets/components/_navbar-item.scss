@@ -1,0 +1,27 @@
+a.navbar-item {
+  display: flex;
+  float: right;
+}
+
+a.navbar-item {
+  background-color: $white;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  border-radius: 50px;
+  font-size: 35px;
+  margin-top: 5px;
+  margin-right: 6rem;
+  border: 2px solid $black;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  width: 18rem;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo_card_home_title:hover {
+  transition: all 0.5s;
+  color: $gray;
+  cursor: pointer;
+}
