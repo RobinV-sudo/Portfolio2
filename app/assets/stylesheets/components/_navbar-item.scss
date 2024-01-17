@@ -20,8 +20,8 @@ a.navbar-item {
   align-items: center;
 }
 
-.photo_card_home_title:hover {
+.navbar-item:hover {
   transition: all 0.5s;
-  color: $gray;
+  background-color: $light-gray;
   cursor: pointer;
 }
