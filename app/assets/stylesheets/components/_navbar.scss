@@ -1,6 +1,6 @@
 .navbar {
   position: relative;
-  width: 85rem;
+  width: 80rem;
   height: 5rem;
   background-color: $gray;
   border-radius: 50px;
@@ -10,7 +10,7 @@
 }
 
 .navbar-2 {
-  width: 80rem;
+  width: 75rem;
   height: 4rem;
   background-color: $white;
   border-radius: 50px;
@@ -30,7 +30,7 @@ a.navbar-item {
   border-radius: 50px;
   font-size: 35px;
   margin-top: 5px;
-  margin-right: 6rem;
+  margin-right: 5rem;
   border: 2px solid $black;
   font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
