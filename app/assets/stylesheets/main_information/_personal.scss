@@ -1,0 +1,45 @@
+.personal {
+  position: absolute;
+  background-color: #8AAAE5;
+  height: 70rem;
+  width: 60rem;
+  display: flex;
+  font-weight: bold;
+  border-radius: 15px;
+  margin-right: 30px;
+  margin-top: 30px;
+  flex-direction: column;
+  font-family: 'Ubuntu', sans-serif;
+  border: 2px solid $black;
+}
+
+.personal-title {
+  position: relative;
+  color: $black;
+  font-size: 50px;
+  background-color: $white;
+  border-radius: 15px;
+  margin-top: 25px;
+  height: 100px;
+  width: 600px;
+  border: 2px solid black;
+  margin-left: 270px;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Ubuntu', sans-serif;
+  display: flex;
+}
+
+.personal-information {
+  position: relative;
+  color: $black;
+  background-color: $white;
+  height: 425px;
+  width: 800px;
+  border: 2px solid $black;
+  border-radius: 15px;
+  margin-top: 10px;
+  font-size: 40px;
+  padding: 30px;
+  overflow-y: scroll;
+}
