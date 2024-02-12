@@ -29,6 +29,18 @@
   display: flex;
 }
 
-.experince_years_text p {
-
+.experince_years_text {
+  color: $black;
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: $white;
+  border-radius: 15px;
+  border: 2px solid $black;
+  height: 23rem;
+  width: 42rem;
+  margin-left: 4rem;
+  text-align: center;
+  align-items: center;
+  font-size: 100px;
+  display: flex;
 }
