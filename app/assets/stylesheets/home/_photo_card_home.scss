@@ -1,7 +1,6 @@
 .photo_card_home {
   position: relative;
   background-image: linear-gradient(to right, $light-green, $light-blue);
-  height: 50rem;
   width: 36rem;
   display: flex;
   flex-direction: column;
@@ -38,6 +37,4 @@
   border-radius: 15px;
   border: 2px solid $black;
   margin-top: 1rem;
-  padding: 10rem;
-  padding-bottom: 26rem;
 }
