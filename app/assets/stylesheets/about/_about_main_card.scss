@@ -1,44 +1,40 @@
 .about_main_card {
   position: relative;
-  background-color: #8AAAE5;
-  height: 700px;
-  width: 900px;
+  background-image: linear-gradient(to right, $light-blue, $light-green);
+  height: 38rem;
+  width: 52rem;
   display: flex;
   font-weight: bold;
   border-radius: 15px;
-  margin-left: -5px;
   margin-top: 30px;
   flex-direction: column;
   font-family: 'Ubuntu', sans-serif;
-  border: 2px solid black;
+  border: 2px solid $black;
 }
 
 .about_main_card_title {
-color: black;
+color: $black;
 font-size: 50px;
-background-color: white;
+background-color: $white;
 border-radius: 15px;
 margin-top: 25px;
 height: 100px;
 width: 600px;
 border: 2px solid black;
-margin-left: 170px;
+margin-left: 120px;
 justify-content: center;
 align-items: center;
 font-family: 'Ubuntu', sans-serif;
+font-weight: bold;
 display: flex;
 }
 
-.about_main_card_title:hover {
-color: #8AAAE5;
-transition: all 0.5s;
-}
-
 .about_main_card_text {
-color: black;
-background-color: white;
-height: 380px;
-width: 740px;
+color: $black;
+background-color: $white;
+font-weight: bold;
+height: 25rem;
+width: 45rem;
 border: 2px solid black;
 border-radius: 15px;
 margin-top: 20px;

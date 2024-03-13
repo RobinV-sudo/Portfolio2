@@ -15,18 +15,18 @@
   margin-top: 30px;
   flex-direction: column;
   font-family: 'Ubuntu', sans-serif;
-  border: 2px solid black;
+  border: 2px solid $black;
 }
 
 .word-doc-title {
-  color: black;
+  color: $black;
   font-size: 35px;
-  background-color: white;
+  background-color: $white;
   border-radius: 15px;
   margin-top: 25px;
   height: 5rem;
   width: 13rem;
-  border: 2px solid black;
+  border: 2px solid $black;
   margin-left: 14px;
   justify-content: center;
   align-items: center;
@@ -35,16 +35,11 @@
   margin-bottom: 30px;
 }
 
-.word-doc-title:hover {
-  color: #8AAAE5;
-  transition: all 0.5s;
-}
-
 .icon-word-pdf {
   height: 10rem;
   width: 10rem;
   border-radius: 15px;
-  border: 2px solid black;
+  border: 2px solid $black;
   margin-top: 20px;
   display: grid;
   margin-left: 39px;
