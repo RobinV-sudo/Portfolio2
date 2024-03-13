@@ -26,23 +26,28 @@
         </div>
         <div class='col-1'>
           <div class="dropdown">
-            <img class="icon" src="/assets/icon-social-media.png" />
+            <%= cl_image_tag("icon-social-media_sdp9mt", alt: "icon social", class: "icon") %>
             <div class="dropdown-options">
-              <a href="https://www.linkedin.com/in/robinvorstedt/", alt: "link to linkedin">
-                <img src='/assets/Linkedin-logo-version-2.png'>
+              <a href="https://www.linkedin.com/in/robinvorstedt/" alt="link to linkedin">
+                <%= cl_image_tag("Linkedin_logo_version_2_svcekn", alt: "icon linkedin", class: "icon") %>
                 Linkedin
-              <a href="https://github.com/RobinV-sudo/", alt: "link to github">
-                <img src='/assets/icon-github.png'>
+              </a>
+              <a href="https://github.com/RobinV-sudo/" alt="link to github">
+                <%= cl_image_tag("icon-github_ztzcuj", alt: "icon github", class: "icon") %>
                 Github
-              <a href="mailto:robinvorstedt@outlook.com", alt: "link to e-mail">
-                <img src='/assets/Mail-icon.png'>
+              </a>
+              <a href="mailto:robinvorstedt@outlook.com" alt="link to e-mail">
+                <%= cl_image_tag("Mail-icon_k5oitc", alt: "icon mail", class: "icon") %>
                 E-mail
-              <a href="https://api.whatsapp.com/send?phone=31640229542", alt: "link to whatsapp">
-                <img src='/assets/Whatsapp-logo-version-2.webp'>
+              </a>
+              <a href="https://api.whatsapp.com/send?phone=31640229542" alt="link to whatsapp">
+                <%= cl_image_tag("Whatsapp_logo_version_2_agvr4g", alt: "icon whatsapp", class: "icon") %>
                 Whatsapp
-              <a alt: "link to kakeotalk", src='/assets/Linkedin-logo-version-2.png'> <!-- create link to kakaotalk -->
-                <img src='/assets/kakaotalk-icon.png'>
+              </a>
+              <a href="#" alt="link to kakeotalk"> <!-- Assuming you haven't provided a link for KakeoTalk yet -->
+                <%= cl_image_tag("kakaotalk-icon_wobug1", alt: "icon kakaotalk", class: "icon") %>
                 KakeoTalk
+              </a>
             </div>
           </div>
         </div>
