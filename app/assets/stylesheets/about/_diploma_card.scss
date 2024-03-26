@@ -1,8 +1,8 @@
 .diploma-card {
   position: relative;
-  background-color: #8AAAE5;
+  background-image: linear-gradient(to right, $light-green, $light-blue);
   height: 67rem;
-  width: 92rem;
+  width: 86rem;
   display: flex;
   font-weight: bold;
   border-radius: 15px;
@@ -23,21 +23,18 @@
   width: 600px;
   border: 2px solid black;
   margin-left: 26rem;
+  margin-bottom: 2rem;
   justify-content: center;
   align-items: center;
+  font-weight: bold;
   font-family: 'Ubuntu', sans-serif;
   display: flex;
 }
 
 .diploma-photo {
   height: 54rem;
-  width: 84rem;
+  width: 80rem;
   border-radius: 15px;
   border: 2px solid black;
   margin-left: 50px;
-}
-
-.diploma-card-title:hover {
-  color: #8AAAE5;
-  transition: all 0.5s;
 }
