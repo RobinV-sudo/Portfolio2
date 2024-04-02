@@ -1,8 +1,8 @@
 .project_video {
   position: relative;
-  background-color: #8AAAE5;
-  height: 79rem;
-  width: 101rem;
+  background-image: linear-gradient(to right, $light-blue, $light-green, $light-blue);
+  height: 77rem;
+  width: 102rem;
   display: flex;
   font-weight: bold;
   border-radius: 15px;
@@ -11,18 +11,18 @@
   margin-bottom: 15px;
   flex-direction: column;
   font-family: 'Ubuntu', sans-serif;
-  border: 2px solid black;
+  border: 2px solid $black;
 }
 
 .project_card_title {
-  color: black;
+  color: $black;
   font-size: 60px;
-  background-color: white;
+  background-color: $white;
   border-radius: 15px;
   margin-top: 25px;
   height: 100px;
-  width: 92rem;
-  border: 2px solid black;
+  width: 93rem;
+  border: 2px solid $black;
   margin-left: 75px;
   justify-content: center;
   align-items: center;
@@ -31,15 +31,20 @@
   display: flex;
 }
 
+.video {
+  margin-left:2rem;
+  margin-top: 1rem;
+}
+
 .project_description  {
-  color: black;
-  font-size: 22px;
-  background-color: white;
+  color: $black;
+  font-size: 31px;
+  background-color: $white;
   border-radius: 15px;
   margin-top: 25px;
   height: 100px;
-  width: 92rem;
-  border: 2px solid black;
+  width: 93rem;
+  border: 2px solid $black;
   margin-left: 75px;
   justify-content: center;
   align-items: center;
