@@ -1,7 +1,7 @@
 .spacetrip_project {
   position: relative;
   background-image: linear-gradient(to right, $light-blue, $light-green, $light-blue);
-  height: 79rem;
+  height: 70rem;
   width: 102rem;
   display: flex;
   font-weight: bold;
@@ -20,6 +20,7 @@
   background-color: $white;
   border-radius: 15px;
   margin-top: 25px;
+  margin-bottom: 2rem;
   height: 100px;
   width: 94rem;
   border: 2px solid $black;
@@ -68,6 +69,10 @@
   transition: left 2s;
 }
 
+.slideshow img.active {
+  display: block;
+}
+
 .slide_project {
   float: left;
   margin: 0px;
@@ -90,16 +95,4 @@
 
 #slide-5:target ~ .image-container {
   left: -2000px;
-}
-
-.buttons_project {
-  position: relative;
-  top: -20px;
-}
-.buttons_project a {
-  display: inline-block;
-  height: 15px;
-  width: 15px;
-  border-radius: 50px;
-  background-color: lightgreen;
 }
