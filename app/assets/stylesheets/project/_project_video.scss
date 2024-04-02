@@ -1,0 +1,49 @@
+.project_video {
+  position: relative;
+  background-color: #8AAAE5;
+  height: 79rem;
+  width: 101rem;
+  display: flex;
+  font-weight: bold;
+  border-radius: 15px;
+  margin-left: -5px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  flex-direction: column;
+  font-family: 'Ubuntu', sans-serif;
+  border: 2px solid black;
+}
+
+.project_card_title {
+  color: black;
+  font-size: 60px;
+  background-color: white;
+  border-radius: 15px;
+  margin-top: 25px;
+  height: 100px;
+  width: 92rem;
+  border: 2px solid black;
+  margin-left: 75px;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  display: flex;
+}
+
+.project_description  {
+  color: black;
+  font-size: 22px;
+  background-color: white;
+  border-radius: 15px;
+  margin-top: 25px;
+  height: 100px;
+  width: 92rem;
+  border: 2px solid black;
+  margin-left: 75px;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  display: flex;
+}
