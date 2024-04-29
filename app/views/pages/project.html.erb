@@ -8,42 +8,62 @@
           <h2 class="project_description" >This project I did it with 3 other classmates. this presenter was presented by 2 of my classmates.</h2>
       </div>
     </div>
+  </div>
+  <div class="row">
     <div class="col-md-12">
-      <div class="spacetrip_project">
+      <div id="sideshow">
+        <% @photos.each_with_index do |photo, project| %>
+          <%= cl_image_tag photo, class: "photo#{project + 1}", alt: "Photo #{project + 1}" %>
+        <% end %>
+      </div>
+      <div id="buttons">
+        <button id="prev">Previous</button>
+        <button id="next">Next</button>
+      </div>
+<!--      <div class="spacetrip_project">
         <h2 class="project_title_spacetrip">First Project Spacetrip</h2>
         <div class="slider_project">
           <div class="image_container">
-            <%= cl_image_tag("Spacetrip_-_1_ert0oz", alt: "Photo 1", class: "slide_project active", width: "1450", height: "800") %>
-            <%= cl_image_tag("Spacetrip_-_2_xklcit", alt: "Photo 2", class: "slide_project", width: "1450", height: "800") %>
-            <%= cl_image_tag("Spacetrip_-_3_ls118i", alt: "Photo 3", class: "slide_project", width: "1450", height: "800") %>
-            <%= cl_image_tag("Spacetrip_-_4_xoyob0", alt: "Photo 4", class: "slide_project", width: "1450", height: "800") %>
-            <%= cl_image_tag("Spacetrip_-_5_ft0cqo", alt: "Photo 5", class: "slide_project", width: "1450", height: "800") %>
+              <%= cl_image_tag("Spacetrip_-_1_ert0oz", alt: "Photo 1", class: "slide_project active", width: "1450", height: "800") %>
+              <%= cl_image_tag("Spacetrip_-_2_xklcit", alt: "Photo 2", class: "slide_project", width: "1450", height: "800") %>
+              <%= cl_image_tag("Spacetrip_-_3_ls118i", alt: "Photo 3", class: "slide_project", width: "1450", height: "800") %>
+              <%= cl_image_tag("Spacetrip_-_4_xoyob0", alt: "Photo 4", class: "slide_project", width: "1450", height: "800") %>
+              <%= cl_image_tag("Spacetrip_-_5_ft0cqo", alt: "Photo 5", class: "slide_project", width: "1450", height: "800") %>
           </div>
           <div class="btn_spacetrip_container">
-            <button class="btn" onclick="showSlide(1)">Photo 1</button>
-            <button class="btn" onclick="showSlide(2)">Photo 2</button>
-            <button class="btn" onclick="showSlide(3)">Photo 3</button>
-            <button class="btn" onclick="showSlide(4)">Photo 4</button>
-            <button class="btn" onclick="showSlide(5)">Photo 5</button>
+            <button class="btn active" data-slide-number="1">Photo 1</button>
+            <button class="btn" data-slide-number="2">Photo 2</button>
+            <button class="btn" data-slide-number="3">Photo 3</button>
+            <button class="btn" data-slide-number="4">Photo 4</button>
+            <button class="btn" data-slide-number="5">Photo 5</button>
           </div>
-          <script>
-            let currentSlide = 1;
-
-            function showSlide(slideNumber) {
-              const slides = document.querySelectorAll('#slideshow img');
-              const buttons = document.querySelectorAll('.btn');
-
-              slides[currentSlide - 1].classList.remove('active');
-              slides[slideNumber - 1].classList.add('active');
-
-              buttons[currentSlide - 1].classList.remove('active');
-              buttons[slideNumber - 1].classList.add('active');
-
-              currentSlide = slideNumber;
-            }
-          </script>
-        </div>
-          <h2 class="project_description_spacetrip" >The first project was the task: Make a website that is simailer to Airbnb and use your fantasy. Me and my team came with the idea to rent spaceships. In Airbnb style.</h2>
       </div>
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          let currentSlide = 1;
+
+          function showSlide(slideNumber) {
+            const slides = document.querySelectorAll('.slide_project');
+            const buttons = document.querySelectorAll('.btn');
+
+            slides[currentSlide - 1].classList.remove('active');
+            slides[slideNumber - 1].classList.add('active');
+
+            buttons[currentSlide - 1].classList.remove('active');
+            buttons[slideNumber - 1].classList.add('active');
+
+            currentSlide = slideNumber;
+          }
+
+          // Add event listeners for buttons here
+          document.querySelectorAll('.btn').forEach(function(button) {
+            button.addEventListener('click', function() {
+              const slideNumber = parseInt(button.dataset.slideNumber, 10);
+              showSlide(slideNumber);
+            });
+          });
+        });
+      </script>
+      <h2 class="project_description_spacetrip" >The first project was the task: Make a website that is simailer to Airbnb and use your fantasy. Me and my team came with the idea to rent spaceships. In Airbnb style.</h2> -->
     </div>
   </div>
