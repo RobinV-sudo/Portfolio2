@@ -1,0 +1,16 @@
+.carousel {
+  position: relative;
+  display: inline-block;
+}
+
+.carousel img {
+  width: 100%;
+  display: block;
+  position: absolute; /* Add this to stack images on top of each other */
+  top: 0;
+  left: 0;
+}
+
+.carousel img.hidden {
+  display: none;
+}

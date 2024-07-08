@@ -13,6 +13,16 @@
     <div class="col-md-12">
       <div class="project_spacetrip">
         <h2 class="project_spacetrip_title">Project Spacetrip</h2>
+        <div class="carousel">
+          <div class="carousel">
+            <% @slideshow_images_names = ["Spacetrip_-_1_ert0oz", "Spacetrip_-_2_xklcit", "Spacetrip_-_3_ls118i", "Spacetrip_-_4_xoyob0", "Spacetrip_-_5_ft0cqo"] %>
+            <% @slideshow_images_names.each_with_index do |image_name, image_index| %>
+              <%= cl_image_tag(image_name, class: image_index == @slideshow_selected_image_index? 'animated fadeIn' : 'hidden') %>
+            <% end %>
+            <button data-click="previous_image">&#x3C;-</button>
+            <button data-click="next_image">-&#x3E;</button>
+          </div>
+        </div>
       </div>
     </div>
   </div>
