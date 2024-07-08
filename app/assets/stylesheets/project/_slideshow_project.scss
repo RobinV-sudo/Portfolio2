@@ -1,28 +1,28 @@
-#slideshow {
+#slideshow_project {
   max-width: 600px;
   margin: 0 auto;
   position: relative;
   overflow: hidden;
 }
 
-#slideshow img {
-  width: 37rem;
+#slideshow_project img {
+  width: 35rem;
   height: 35rem;
   border-radius: 15px;
   border: 2px solid black;
   display: none;
 }
 
-#slideshow img.active {
+#slideshow_project img.active {
   display: block;
 }
 
-.btn-container {
+.btn_container_project {
   margin-top: 15px;
   text-align: center;
 }
 
-.btn {
+.btn_project {
   margin: 0 5px;
   padding: 5px 10px;
   border: 2px solid black;

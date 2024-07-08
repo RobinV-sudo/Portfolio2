@@ -19,23 +19,23 @@
           <button class="btn" onclick="showSlide(3)">Photo 3</button>
         </div>
       </div>
+      <script>
+        let currentSlide = 1;
+
+        function showSlide(slideNumber) {
+          const slides = document.querySelectorAll('#slideshow img');
+          const buttons = document.querySelectorAll('.btn');
+
+          slides[currentSlide - 1].classList.remove('active');
+          slides[slideNumber - 1].classList.add('active');
+
+          buttons[currentSlide - 1].classList.remove('active');
+          buttons[slideNumber - 1].classList.add('active');
+
+          currentSlide = slideNumber;
+        }
+      </script>
     </div>
-    <script>
-      let currentSlide = 1;
-
-      function showSlide(slideNumber) {
-        const slides = document.querySelectorAll('#slideshow img');
-        const buttons = document.querySelectorAll('.btn');
-
-        slides[currentSlide - 1].classList.remove('active');
-        slides[slideNumber - 1].classList.add('active');
-
-        buttons[currentSlide - 1].classList.remove('active');
-        buttons[slideNumber - 1].classList.add('active');
-
-        currentSlide = slideNumber;
-      }
-    </script>
   </div>
   <div class="row">
     <div class="col-md-2">
