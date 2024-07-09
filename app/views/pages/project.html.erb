@@ -13,13 +13,21 @@
     <div class="col-md-12">
       <div class="project_spacetrip">
         <h2 class="project_spacetrip_title">Project Spacetrip</h2>
-          <div id="slideshow_project">
-            <img src="spacetrip_1.jpg" alt= "Photo 1" class= "active_project">
-            <img src="spacetrip_2.jpg" alt= "Photo 2">
-            <img src="spacetrip_3.jpg" alt= "Photo 3">
-            <img src="spacetrip_4.jpg" alt= "Photo 4">
-            <img src="spacetrip_5.jpg" alt= "Photo 5">
+          <div class="slideshow_project">
+            <!--
+            <img src=" ../../../assets/images/spacetrip_1.jpg" alt= "Photo 1" class= "active_project">
+            <img src=" ../../../assets/images/spacetrip_2.jpg" alt= "Photo 2">
+            <img src=" ../../../assets/images/spacetrip_3.jpg" alt= "Photo 3">
+            <img src=" ../../../assets/images/spacetrip_4.jpg" alt= "Photo 4">
+            <img src=" ../../../assets/images/spacetrip_5.jpg" alt= "Photo 5">
+            -->
             <!-- local server pictures not found -->
+
+            <%= cl_image_tag("Spacetrip_-_1_ert0oz", alt: "Photo 1", class: "active_project") %>
+            <%= cl_image_tag("Spacetrip_-_2_xklcit", alt: "Photo 2") %>
+            <%= cl_image_tag("Spacetrip_-_3_ls118i", alt: "Photo 3") %>
+            <%= cl_image_tag("Spacetrip_-_4_xoyob0", alt: "Photo 4") %>
+            <%= cl_image_tag("Spacetrip_-_5_ft0cqo", alt: "Photo 5") %>
           </div>
           <div class="btn_container_project">
             <button class="btn_project" onclick="showSlideP(1)">Photo 1</button>

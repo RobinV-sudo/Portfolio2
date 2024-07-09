@@ -1,20 +1,23 @@
-#slideshow_project {
+.slideshow_project {
   max-width: 600px;
   margin: 0 auto;
   position: relative;
   overflow: hidden;
 }
 
-#slideshow_project img {
+.slideshow_project img {
   width: 35rem;
   height: 35rem;
   border-radius: 15px;
   border: 2px solid black;
-  display: none;
 }
 
-#slideshow_project img.active {
+.slideshow_project img:first-child {
   display: block;
+}
+
+.slideshow_project img:not(:first-child) {
+  display: none;
 }
 
 .btn_container_project {
