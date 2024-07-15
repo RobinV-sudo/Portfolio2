@@ -1,7 +1,9 @@
 .photo_card_home {
   position: relative;
   background-image: linear-gradient(to right, $light-green, $light-blue);
-  width: 36rem;
+  width: 42rem;
+  height: 50rem;
+  margin-left: 3rem;
   display: flex;
   flex-direction: column;
   color: $white;
@@ -26,13 +28,14 @@
   width: 500px;
   border: 2px solid $black;
   font-family: 'Ubuntu', sans-serif;
-  margin-left: 40px;
+  margin-left: 5rem;
   display: flex;
 }
 
 .photo-home {
   display: flex;
-  margin: 30px;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
   width: 90%;
   border-radius: 15px;
   border: 2px solid $black;
