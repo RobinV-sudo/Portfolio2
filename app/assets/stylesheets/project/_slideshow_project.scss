@@ -1,16 +1,16 @@
 .slideshow_project {
-  max-width: 600px;
   margin: 0 auto;
   position: relative;
   overflow: hidden;
 }
 
 .slideshow_project img {
-  width: 35rem;
-  height: 35rem;
+  width: 92rem;
+  height: 63rem;
+  margin-left: 8px;
   border-radius: 15px;
   border: 2px solid black;
-  display: none; 
+  display: none;
 }
 
 .slideshow_project img.active_project {
