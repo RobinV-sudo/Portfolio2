@@ -10,14 +10,11 @@
   height: 35rem;
   border-radius: 15px;
   border: 2px solid black;
+  display: none; 
 }
 
-.slideshow_project img:first-child {
+.slideshow_project img.active_project {
   display: block;
-}
-
-.slideshow_project img:not(:first-child) {
-  display: none;
 }
 
 .btn_container_project {
