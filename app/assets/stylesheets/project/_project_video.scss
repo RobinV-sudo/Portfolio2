@@ -1,13 +1,12 @@
 .project_video {
   position: relative;
   background-image: linear-gradient(to right, $light-blue, $light-green, $light-blue);
-  height: 81rem;
+  height: 83rem;
   width: 102rem;
   display: flex;
   font-weight: bold;
   border-radius: 15px;
   margin-left: -5px;
-  margin-top: 30px;
   margin-bottom: 15px;
   flex-direction: column;
   font-family: 'Ubuntu', sans-serif;
@@ -18,14 +17,14 @@
   background-color: $white;
   border-radius: 15px;
   margin-top: 25px;
-  height: 150px;
+  height: 200px;
   width: 93rem;
   margin-left: 4rem;
   border: 2px solid $black;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .project_card_title {
@@ -41,6 +40,8 @@
   margin-left: 75px;
   font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
+  font-size: 60px;
+  text-decoration: underline;
 }
 
 .video {
