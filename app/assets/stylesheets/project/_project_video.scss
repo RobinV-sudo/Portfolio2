@@ -1,7 +1,7 @@
 .project_video {
   position: relative;
   background-image: linear-gradient(to right, $light-blue, $light-green, $light-blue);
-  height: 77rem;
+  height: 78rem;
   width: 102rem;
   display: flex;
   font-weight: bold;
@@ -38,11 +38,11 @@
 
 .project_description  {
   color: $black;
-  font-size: 31px;
+  font-size: 30px;
   background-color: $white;
   border-radius: 15px;
   margin-top: 25px;
-  height: 100px;
+  height: 120px;
   width: 93rem;
   border: 2px solid $black;
   margin-left: 75px;
@@ -51,4 +51,5 @@
   font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
   display: flex;
+  padding-left: 10px;
 }
