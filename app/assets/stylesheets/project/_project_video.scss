@@ -1,7 +1,7 @@
 .project_video {
   position: relative;
   background-image: linear-gradient(to right, $light-blue, $light-green, $light-blue);
-  height: 78rem;
+  height: 81rem;
   width: 102rem;
   display: flex;
   font-weight: bold;
@@ -14,21 +14,33 @@
   border: 2px solid $black;
 }
 
-.project_card_title {
-  color: $black;
-  font-size: 60px;
+.project_card_header {
   background-color: $white;
   border-radius: 15px;
   margin-top: 25px;
-  height: 100px;
+  height: 150px;
   width: 93rem;
+  margin-left: 4rem;
   border: 2px solid $black;
-  margin-left: 75px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+}
+
+.project_card_title {
+  color: $black;
+  font-size: 60px;
+  margin-left: 75px;
   font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
-  display: flex;
+}
+
+.project_card_subtitle {
+  color: $black;
+  margin-left: 75px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
 }
 
 .video {
