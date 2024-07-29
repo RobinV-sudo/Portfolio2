@@ -1,7 +1,7 @@
 .project_spacetrip {
   position: relative;
   background-image: linear-gradient(to right, $light-blue, $light-green, $light-blue);
-  height: 77rem;
+  height: 91rem;
   width: 102rem;
   display: flex;
   font-weight: bold;
@@ -29,4 +29,24 @@
   font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
   display: flex;
+  margin-bottom: 2rem;
+}
+
+.desription_spacetrip {
+  color: $black;
+  font-size: 30px;
+  background-color: $white;
+  border-radius: 15px;
+  margin-top: 10px;
+  height: 165px;
+  width: 93rem;
+  border: 2px solid $black;
+  margin-left: 75px;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  display: flex;
+  margin-bottom: 2rem;
+  padding-left: 10px;
 }
