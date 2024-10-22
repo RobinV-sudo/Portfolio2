@@ -1,6 +1,6 @@
 .navbar {
   position: relative;
-  width: 80rem;
+  width: 90%;
   height: 5rem;
   background-image: linear-gradient(to right, $light-blue, $light-green, $light-blue);
   border-radius: 50px;
@@ -8,16 +8,15 @@
   margin-top: 2rem;
   margin-left: 9rem;
   margin-bottom: 2rem;
-  float: left;
 }
 
 .navbar-2 {
-  width: 75rem;
+  width: 90%;
   height: 4rem;
   background-color: $white;
   border-radius: 50px;
   border: 2px solid black;
-  margin-left: 40px;
+  margin-left: 70px;
 }
 
 a.navbar-item {
@@ -36,7 +35,7 @@ a.navbar-item {
   border: 2px solid $black;
   font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
-  width: 18rem;
+  width: 24%;
   height: 50px;
   justify-content: center;
   align-items: center;
