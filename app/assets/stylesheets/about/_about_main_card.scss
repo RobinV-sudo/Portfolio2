@@ -2,7 +2,7 @@
   position: relative;
   background-image: linear-gradient(to right, $light-blue, $light-green);
   height: 43rem;
-  width: 55rem;
+  width: 111%;
   display: flex;
   font-weight: bold;
   border-radius: 15px;
@@ -13,14 +13,14 @@
 
 .about_main_card_title {
 color: $black;
-font-size: 50px;
+font-size: 3vw;
 background-color: $white;
 border-radius: 15px;
 margin-top: 25px;
 height: 100px;
-width: 600px;
+width: 75%;
 border: 2px solid black;
-margin-left: 8rem;
+margin-left: 7rem;
 justify-content: center;
 align-items: center;
 font-family: 'Ubuntu', sans-serif;
@@ -33,11 +33,11 @@ color: $black;
 background-color: $white;
 font-weight: bold;
 height: 31rem;
-width: 48rem;
+width: 88%;
 border: 2px solid black;
 border-radius: 15px;
 margin-top: 20px;
-font-size: 40px;
+font-size: 2vw;
 padding: 30px;
 margin-left: 50px;
 overflow-y: scroll;

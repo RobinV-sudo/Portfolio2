@@ -7,7 +7,7 @@
   position: relative;
   background-image: linear-gradient(to right, $light-blue, $light-green);
   height: 67rem;
-  width: 15rem;
+  width: 100%;
   display: flex;
   font-weight: bold;
   border-radius: 15px;
@@ -20,12 +20,12 @@
 
 .word-doc-title {
   color: $black;
-  font-size: 50px;
+  font-size: 3vw;
   background-color: $white;
   border-radius: 15px;
   margin-top: 25px;
   height: 5rem;
-  width: 13rem;
+  width: 90%;
   border: 2px solid $black;
   margin-left: 14px;
   justify-content: center;
@@ -37,7 +37,7 @@
 
 .icon-word-pdf {
   height: 10rem;
-  width: 10rem;
+  width: 70%;
   border-radius: 15px;
   border: 2px solid $black;
   margin-top: 20px;

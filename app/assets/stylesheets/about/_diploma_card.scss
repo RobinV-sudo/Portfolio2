@@ -2,7 +2,7 @@
   position: relative;
   background-image: linear-gradient(to right, $light-green, $light-blue);
   height: 67rem;
-  width: 86rem;
+  width: 103%;
   display: flex;
   font-weight: bold;
   border-radius: 15px;
@@ -15,12 +15,12 @@
 
 .diploma-card-title {
   color: black;
-  font-size: 50px;
+  font-size: 3vw;
   background-color: white;
   border-radius: 15px;
   margin-top: 25px;
   height: 100px;
-  width: 600px;
+  width: 40%;
   border: 2px solid black;
   margin-left: 26rem;
   margin-bottom: 2rem;
@@ -33,7 +33,7 @@
 
 .diploma-photo {
   height: 54rem;
-  width: 80rem;
+  width: 93%;
   border-radius: 15px;
   border: 2px solid black;
   margin-left: 50px;
