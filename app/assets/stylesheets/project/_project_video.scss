@@ -1,8 +1,8 @@
 .project_video {
   position: relative;
   background-image: linear-gradient(to right, $light-blue, $light-green, $light-blue);
-  height: 83rem;
-  width: 102rem;
+  height: 86rem;
+  width: 102%;
   display: flex;
   font-weight: bold;
   border-radius: 15px;
@@ -17,8 +17,7 @@
   background-color: $white;
   border-radius: 15px;
   margin-top: 25px;
-  height: 200px;
-  width: 93rem;
+  width: 92%;
   margin-left: 4rem;
   border: 2px solid $black;
   display: flex;
@@ -29,7 +28,7 @@
 
 .project_card_title {
   color: $black;
-  font-size: 60px;
+  font-size: 4vw;
   margin-left: 75px;
   font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
@@ -40,7 +39,7 @@
   margin-left: 75px;
   font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
-  font-size: 60px;
+  font-size: 4vw;
   text-decoration: underline;
 }
 
@@ -51,12 +50,12 @@
 
 .project_description  {
   color: $black;
-  font-size: 30px;
+  font-size: 4vh;
   background-color: $white;
   border-radius: 15px;
   margin-top: 25px;
   height: 120px;
-  width: 93rem;
+  width: 91%;
   border: 2px solid $black;
   margin-left: 75px;
   justify-content: center;
