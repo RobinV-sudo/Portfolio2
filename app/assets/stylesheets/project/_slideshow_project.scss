@@ -5,9 +5,9 @@
 }
 
 .slideshow_project img {
-  width: 99%;
-  height: 63rem;
-  margin-left: 8px;
+  width: 98%;
+  height: 98%;
+  margin: 1%;
   border-radius: 15px;
   border: 2px solid black;
   display: none;
@@ -29,8 +29,8 @@
   border-radius: 15px;
   background-color: white;
   color: black;
-  cursor: pointer;
   font-family: 'Ubuntu', sans-serif;
   font-size: 3vh;
   font-weight: bold;
+  width: 6%;
 }
