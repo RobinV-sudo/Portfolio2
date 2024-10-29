@@ -30,18 +30,22 @@
 .project_card_title {
   color: $black;
   font-size: 4vw;
-  margin-left: 75px;
   font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
 }
 
 .project_card_subtitle {
   color: $black;
-  margin-left: 75px;
   font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
   font-size: 4vw;
   text-decoration: underline;
+}
+
+.video_youtube {
+  object-fit: contain;
+  width: "96%";
+  height: "66%";
 }
 
 .video {
