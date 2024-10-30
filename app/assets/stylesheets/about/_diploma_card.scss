@@ -1,13 +1,13 @@
 .diploma-card {
   position: relative;
   background-image: linear-gradient(to right, $light-green, $light-blue);
-  height: 67rem;
+  height: 96%;
   width: 103%;
   display: flex;
   font-weight: bold;
   border-radius: 15px;
-  margin: 15px;
-  margin-top: 30px;
+  margin-left: 2%;
+  margin-top: 3%;
   flex-direction: column;
   font-family: 'Ubuntu', sans-serif;
   border: 2px solid black;
@@ -18,23 +18,24 @@
   font-size: 3vw;
   background-color: white;
   border-radius: 15px;
-  margin-top: 25px;
-  height: 100px;
+  margin-top: 2%;
+  height: 9%;
   width: 40%;
   border: 2px solid black;
-  margin-left: 26rem;
-  margin-bottom: 2rem;
+  margin-left: 28%;
+  margin-bottom: 2%;
   justify-content: center;
   align-items: center;
   font-weight: bold;
   font-family: 'Ubuntu', sans-serif;
   display: flex;
+  padding: 1%;
 }
 
 .diploma-photo {
-  height: 54rem;
+  height: auto;
   width: 93%;
   border-radius: 15px;
   border: 2px solid black;
-  margin-left: 50px;
+  margin-left: 4%;
 }
