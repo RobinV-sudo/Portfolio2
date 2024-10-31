@@ -6,12 +6,12 @@
   background-image: linear-gradient(to right, $light-green, $light-blue);
   display: flex;
   position: relative;
-  margin: 15px;
-  margin-left: 35px;
+  margin-right: 3%;
+  margin-left: 3%;
   flex-flow: row wrap;
   overflow-y:scroll;
-  margin-bottom: 10%;
-  margin-top: 10%;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 
 .course_title {
@@ -26,7 +26,6 @@
   align-items: center;
   font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
-  margin-left: 4rem;
-  margin-top: 1rem;
+  margin-left: 10%;
   display: flex;
 }
