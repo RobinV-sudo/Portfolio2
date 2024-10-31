@@ -4,10 +4,8 @@
   height: 25%;
   width: 104%;
   display: flex;
-  font-weight: bold;
   border-radius: 15px;
   flex-direction: column;
-  font-family: 'Ubuntu', sans-serif;
   border: 2px solid $black;
   margin-bottom: 2%;
 }
@@ -38,8 +36,9 @@
   display: flex;
   color: $black;
   font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
   background-color: $white;
-  height: 20%;
+  height: 19%;
   width: 80%;
   border: 2px solid $black;
   border-radius: 15px;
