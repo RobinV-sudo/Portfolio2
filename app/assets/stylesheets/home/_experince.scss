@@ -46,6 +46,52 @@
   display: flex;
 }
 
-@media screen and (max-width: 720px){
-  display: flex-wrap;
+@media screen and (max-width: 1024px){
+  .experince {
+    width: 100%;
+    height: 125%;
+    border-radius: 15px;
+    border: 2px solid $black;
+    background-image: linear-gradient(to right, $light-blue, $light-green);
+    display: flex;
+    position: relative;
+    flex-flow: row wrap;
+    overflow-y:scroll;
+    margin-bottom: 10%;
+    margin-top: 5%;
+  }
+
+  .experince_title {
+    color: $black;
+    font-size: 3vw;
+    background-color: $white;
+    border-radius: 15px;
+    height: 20%;
+    width: 70%;
+    margin-top: 3%;
+    margin-left: 16%;
+    border: 2px solid $black;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+  }
+
+  .experince_years_text {
+    color: $black;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: $white;
+    border-radius: 15px;
+    border: 2px solid $black;
+    height: 67%;
+    width: 85%;
+    margin-left: 7%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 8vw;
+    display: flex;
+  }
 }
