@@ -42,3 +42,49 @@ padding: 1%;
 margin-left: 6%;
 overflow-y: scroll;
 }
+
+@media screen and (max-width: 576px) {
+  .about_main_card {
+    position: relative;
+    background-image: linear-gradient(to right, $light-blue, $light-green);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    font-weight: bold;
+    border-radius: 15px;
+    flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+    border: 2px solid $black;
+  }
+
+  .about_main_card_title {
+  color: $black;
+  font-size: 3vw;
+  background-color: $white;
+  border-radius: 15px;
+  margin-top: 3%;
+  height: 15%;
+  width: 75%;
+  border: 2px solid black;
+  margin-left: 13%;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  display: flex;
+  }
+
+  .about_main_card_text {
+  color: $black;
+  background-color: $white;
+  font-weight: bold;
+  height: 70%;
+  width: 88%;
+  border: 2px solid black;
+  border-radius: 15px;
+  font-size: 2vw;
+  padding: 1%;
+  margin-left: 6%;
+  overflow-y: scroll;
+  }
+}

@@ -10,3 +10,19 @@
   flex-direction: column;
   border: 2px solid $black;
 }
+
+@media screen and (max-width: 576px) {
+  .slidshow_container {
+    position: relative;
+    background-image: linear-gradient(to right, $light-green, $light-blue);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    margin-left: 0%;
+    margin-top: 3%;
+    flex-direction: column;
+    border: 2px solid $black;
+  }
+}

@@ -46,3 +46,54 @@
   margin-left: 16%;
   margin-bottom: 10%;
 }
+
+@media screen and (max-width: 576px) {
+  .container-word-pdf {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .word-doc-card {
+    position: relative;
+    background-image: linear-gradient(to right, $light-blue, $light-green);
+    height: auto;
+    width: 100%;
+    display: flex;
+    font-weight: bold;
+    border-radius: 15px;
+    margin-left: 1%;
+    margin-top: 16%;
+    flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+    border: 2px solid $black;
+  }
+
+  .word-doc-title {
+    color: $black;
+    font-size: 3vw;
+    background-color: $white;
+    border-radius: 15px;
+    margin-top: 10%;
+    height: auto;
+    width: 90%;
+    border: 2px solid $black;
+    margin-left: 5%;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    display: flex;
+    padding: 1%;
+  }
+
+  .icon-word-pdf {
+    height: auto;
+    width: 70%;
+    border-radius: 15px;
+    border: 2px solid $black;
+    margin-top: 8%;
+    display: grid;
+    margin-left: 16%;
+    margin-bottom: 10%;
+  }
+}
