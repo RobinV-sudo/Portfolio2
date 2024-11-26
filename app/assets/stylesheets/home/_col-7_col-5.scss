@@ -9,3 +9,14 @@
   width: 41.66666667%;
   max-height: 43rem;
 }
+
+@media screen and (max-width: 576px) {
+  .col-5-custom {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .col-7-custom {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
