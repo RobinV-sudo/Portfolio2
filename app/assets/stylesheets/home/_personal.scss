@@ -55,3 +55,60 @@
   padding-right: 2%;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 540px) {
+  .personal {
+    position: relative;
+    background-image: linear-gradient(to right, $light-blue, $light-green);
+    height: 100%;
+    width: 104%;
+    display: flex;
+    border-radius: 15px;
+    flex-direction: column;
+    border: 2px solid $black;
+    margin-bottom: 2%;
+  }
+  .personal-title {
+    position: relative;
+    color: $black;
+    height: 15%;
+    width: 90%;
+    font-weight: bold;
+    font-size: 4vw;
+    background-color: $white;
+    border-radius: 15px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 25px;
+    border: 2px solid $black;
+    margin-left: 5%;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    text-decoration: none;
+  }
+  .personal-information {
+    flex: 1;
+    overflow: hidden;
+  }
+  .personal p {
+    display: block;
+    overflow-y: auto;
+    color: $black;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    background-color: $white;
+    height: 90%;
+    width: 90%;
+    border: 2px solid $black;
+    border-radius: 15px;
+    margin-top: 2%;
+    margin-left: 5%;
+    font-size: 2vw;
+    padding-left: 2%;
+    padding-top: 1%;
+    padding-right: 2%;
+    box-sizing: border-box;
+  }
+}
