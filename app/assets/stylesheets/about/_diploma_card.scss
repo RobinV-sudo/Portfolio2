@@ -44,8 +44,8 @@
   .diploma-card {
     position: relative;
     background-image: linear-gradient(to right, $light-green, $light-blue);
-    height: 96%;
-    width: 103%;
+    height: 100%;
+    width: 100%;
     display: flex;
     font-weight: bold;
     border-radius: 15px;
@@ -58,14 +58,14 @@
 
   .diploma-card-title {
     color: black;
-    font-size: 3vw;
+    font-size: 4vw;
     background-color: white;
     border-radius: 15px;
     margin-top: 2%;
     height: 9%;
-    width: 40%;
+    width: 50%;
     border: 2px solid black;
-    margin-left: 28%;
+    margin-left: 26%;
     margin-bottom: 2%;
     justify-content: center;
     align-items: center;
