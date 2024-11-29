@@ -59,7 +59,7 @@
 @media screen and (max-width: 576px) {
   .personal {
     position: relative;
-    background-image: linear-gradient(to right, $light-blue, $light-green);
+    background-image: linear-gradient(to right, $light-blue, $light-green, $light-blue);
     height: 8%;
     width: 100%;
     display: flex;
