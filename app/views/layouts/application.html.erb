@@ -27,8 +27,8 @@
           </div>
           <div class='col-1'>
             <div class="dropdown">
-              <%= cl_image_tag("icon-social-media_sdp9mt", alt: "icon social", class: "icon") %>
-              <div class="dropdown-options">
+              <button onclick="myFunction('myDropdown')" class="dropbtn">Contact List</button>
+              <div id="myDropdown" class="dropdown-content">
                 <a href="https://www.linkedin.com/in/robinvorstedt/" alt="link to linkedin" target="_blank">
                   <%= cl_image_tag("Linkedin_logo_version_2_svcekn", alt: "icon linkedin", class: "icon_style") %>
                   Linkedin
@@ -51,6 +51,23 @@
                 </a>
               </div>
             </div>
+            <script>
+              function myFunction(dropdownId) {
+                  document.getElementById(dropdownId).classList.toggle("show");
+              }
+
+              window.onclick = function(event) {
+                  if (!event.target.matches('.dropbtn')) {
+                      var dropdowns = document.getElementsByClassName("dropdown-content");
+                      for (var i = 0; i < dropdowns.length; i++) {
+                          var openDropdown = dropdowns[i];
+                          if (openDropdown.classList.contains('show')) {
+                              openDropdown.classList.remove('show');
+                          }
+                      }
+                  }
+              }
+            </script>
           </div>
         </div>
         <%= yield %>
