@@ -2,7 +2,7 @@
   display: block;
   width: 30%;
   height: 40px;
-  padding: 5px;
+  padding-bottom: 10%;
   float: right;
   transform: translateY(0px);
   transition: all 0.5s;
@@ -92,7 +92,7 @@
 @media screen and (max-width: 576px) {
   .icon_style {
     display: block;
-    width: 15%;
+    width: 30%;
     height: 40px;
     padding: 5px;
     float: right;
