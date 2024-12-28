@@ -33,7 +33,7 @@
   display: block;
 }
 
-.dropdown a:hover {background-color: #ddd;}
+.dropdown a:hover {background-color: $dropdownactive;}
 
 .show {display: block;}
 
@@ -72,7 +72,7 @@
     display: block;
   }
 
-  .dropdown a:hover {background-color: #ddd;}
+  .dropdown a:hover {background-color: $dropdownactive;}
 
   .show {display: block;}
 }
