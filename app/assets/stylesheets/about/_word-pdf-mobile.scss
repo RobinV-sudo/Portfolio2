@@ -2,5 +2,6 @@
   .word-pdf-mobile {
     display: flex;
     flex-direction: row;
+    background-image: linear-gradient(to right, $light-blue, $light-green, $light-blue);
   }
 }

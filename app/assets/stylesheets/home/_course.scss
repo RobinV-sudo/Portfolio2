@@ -1,18 +1,15 @@
 .course {
   width: 103%;
   height: 125%;
-  margin-top: 5%;
   border-radius: 15px;
   border: 2px solid $black;
   background-image: linear-gradient(to right, $light-green, $light-blue);
   display: flex;
   position: relative;
-  margin-right: 3%;
+  margin: 5%;
   margin-left: 3%;
   flex-flow: row wrap;
   overflow-y:scroll;
-  padding-top: 3%;
-  padding-bottom: 3%;
 }
 
 .course_title {
@@ -33,9 +30,8 @@
 
 .icon_style_skill {
   display: block;
-  width: 30%;
-  height: 40px;
-  float: right;
+  width: 12%;
+  height: 10%;
   transform: translateY(0px);
   transition: all 0.5s;
 }
@@ -78,7 +74,6 @@
     display: block;
     width: 30%;
     height: 40px;
-    float: right;
     transform: translateY(0px);
     transition: all 0.5s;
   }
