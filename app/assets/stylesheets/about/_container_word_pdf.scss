@@ -42,7 +42,7 @@
   margin-bottom: 10%;
 }
 
-@media screen and (max-width: 576px) {
+@media (min-width: 576px) and (max-width: 767.98px) {
   .word-doc-card {
     position: relative;
     background-image: linear-gradient(to right, $light-blue, $light-green, $light-blue);
@@ -51,7 +51,7 @@
     display: flex;
     font-weight: bold;
     border-radius: 15px;
-    margin-left: 1%;
+    margin-left: 0%;
     margin-top: 6%;
     flex-direction: row;
     font-family: 'Ubuntu', sans-serif;
@@ -89,7 +89,7 @@
   }
 }
 
-@media (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 991.98px) {
   .word-doc-card {
     position: relative;
     background-image: linear-gradient(to right, $light-blue, $light-green, $light-blue);
@@ -98,6 +98,7 @@
     display: flex;
     font-weight: bold;
     border-radius: 15px;
+    margin-left: 0%;
     margin-top: 6%;
     flex-direction: row;
     font-family: 'Ubuntu', sans-serif;
