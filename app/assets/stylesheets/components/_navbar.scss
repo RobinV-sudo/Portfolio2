@@ -84,3 +84,90 @@ a.navbar-item {
     align-items: center;
   }
 }
+
+@media screen and  (min-width: 576px) and (max-width: 767.98px) {
+  .navbar {
+  position: relative;
+  width: 90%;
+  height: 65%;
+  background-image: linear-gradient(to right, $light-blue, $light-green, $light-blue);
+  border-radius: 50px;
+  border: 2px solid rgb(0, 0, 0);
+  margin-top: 2%;
+  margin-bottom: 2%;
+  }
+
+  .navbar-2 {
+  width: 90%;
+  height: 85%;
+  background-color: $white;
+  border-radius: 50px;
+  border: 2px solid black;
+  margin-left: 5%;
+  }
+
+  a.navbar-item {
+  display: flex;
+  float: right;
+  }
+
+  a.navbar-item {
+  background-color: $white;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  border-radius: 50px;
+  font-size: 2vw;
+  margin-top: 1.60%;
+  margin-right: 7%;
+  border: 2px solid $black;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  width: 24%;
+  height: 80%;
+  justify-content: center;
+  align-items: center;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  .navbar {
+  position: relative;
+  width: 90%;
+  height: 65%;
+  background-image: linear-gradient(to right, $light-blue, $light-green, $light-blue);
+  border-radius: 50px;
+  border: 2px solid rgb(0, 0, 0);
+  margin-top: 2%;
+  margin-bottom: 2%;
+  }
+
+  .navbar-2 {
+  width: 90%;
+  height: 85%;
+  background-color: $white;
+  border-radius: 50px;
+  border: 2px solid black;
+  margin-left: 5%;
+  }
+
+  a.navbar-item {
+  display: flex;
+  float: right;
+  }
+
+  a.navbar-item {
+  background-color: $white;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  border-radius: 50px;
+  font-size: 2vw;
+  margin-top: 1.60%;
+  margin-right: 7%;
+  border: 2px solid $black;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  width: 24%;
+  height: 80%;
+  justify-content: center;
+  align-items: center;
+  }
+}
