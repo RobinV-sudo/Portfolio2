@@ -102,3 +102,109 @@
     padding-left: 1%;
   }
 }
+
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+  .project_spacetrip {
+    position: relative;
+    background-image: linear-gradient(to right, $light-blue, $light-green, $light-blue);
+    height: 100%;
+    width: 102%;
+    display: flex;
+    font-weight: bold;
+    border-radius: 15px;
+    margin-left: -5px;
+    margin-top: 10px;
+    flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+    border: 2px solid $black;
+  }
+
+  .project_spacetrip_title {
+    color: $black;
+    font-size: 4vw;
+    background-color: $white;
+    border-radius: 15px;
+    height: 7%;
+    width: 91%;
+    border: 2px solid $black;
+    margin: 2%;
+    margin-left: 4%;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    display: flex;
+    text-decoration: underline;
+  }
+
+  .desription_spacetrip {
+    color: $black;
+    font-size: 2vw;
+    background-color: $white;
+    border-radius: 15px;
+    height: 15%;
+    width: 91%;
+    border: 2px solid $black;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    display: flex;
+    margin: 1%;
+    margin-left: 5%;
+    padding-left: 1%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  .project_spacetrip {
+    position: relative;
+    background-image: linear-gradient(to right, $light-blue, $light-green, $light-blue);
+    height: 100%;
+    width: 102%;
+    display: flex;
+    font-weight: bold;
+    border-radius: 15px;
+    margin-left: -5px;
+    margin-top: 10px;
+    flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+    border: 2px solid $black;
+  }
+
+  .project_spacetrip_title {
+    color: $black;
+    font-size: 4vw;
+    background-color: $white;
+    border-radius: 15px;
+    height: 7%;
+    width: 91%;
+    border: 2px solid $black;
+    margin: 2%;
+    margin-left: 4%;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    display: flex;
+    text-decoration: underline;
+  }
+
+  .desription_spacetrip {
+    color: $black;
+    font-size: 2vw;
+    background-color: $white;
+    border-radius: 15px;
+    height: 15%;
+    width: 91%;
+    border: 2px solid $black;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    display: flex;
+    margin: 1%;
+    margin-left: 5%;
+    padding-left: 1%;
+  }
+}
