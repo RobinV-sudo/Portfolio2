@@ -39,6 +39,49 @@
   font-weight: bold;
 }
 
+@media screen and (max-width: 576px) {
+  #slideshow {
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+  }
+
+  #slideshow img {
+    width: 99%;
+    height: 93%;
+    margin-top: 5%;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-radius: 15px;
+    border: 2px solid black;
+    display: none;
+  }
+
+  #slideshow img.active {
+    display: block;
+  }
+
+  .btn-container {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+  }
+
+  .btn {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1vw;
+    font-weight: bold;
+  }
+}
+
 @media (min-width: 576px) and (max-width: 767.98px) {
   #slideshow {
     max-width: 100%;
