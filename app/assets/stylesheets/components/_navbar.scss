@@ -44,13 +44,14 @@ a.navbar-item {
 @media screen and (max-width: 576px) {
   .navbar {
     position: relative;
-    width: 90%;
+    width: 70%;
     height: 65%;
     background-image: linear-gradient(to right, $light-blue, $light-green, $light-blue);
     border-radius: 50px;
     border: 2px solid rgb(0, 0, 0);
     margin-top: 2%;
     margin-bottom: 2%;
+    margin-left: 0%;
   }
 
   .navbar-2 {
@@ -72,8 +73,8 @@ a.navbar-item {
     color: rgb(0, 0, 0);
     text-decoration: none;
     border-radius: 50px;
-    font-size: 2vw;
-    margin-top: 1.60%;
+    font-size: 3.5vh;
+    margin-top: 0.50%;
     margin-right: 7%;
     border: 2px solid $black;
     font-family: 'Ubuntu', sans-serif;
