@@ -84,7 +84,7 @@
   .course {
     width: 100%;
     height: 125%;
-    margin-top: 5%;
+    margin-top: 9%;
     border-radius: 15px;
     border: 2px solid $black;
     background-image: linear-gradient(to right, $light-blue, $light-green, $light-blue);
@@ -92,7 +92,7 @@
     position: relative;
     flex-flow: row wrap;
     overflow-y:scroll;
-    padding: 0%;
+    padding-left: 6%;
     margin-left: 0%;
   }
 
@@ -108,7 +108,7 @@
     align-items: center;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
-    margin-left: 10%;
+    margin-left: 6%;
     display: flex;
     margin-top: 5%;
   }
