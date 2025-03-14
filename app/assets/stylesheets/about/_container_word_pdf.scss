@@ -45,14 +45,15 @@
 @media screen and (max-width: 576px) {
   .word-doc-card {
     position: relative;
-    background-image: linear-gradient(to right, $light-blue, $light-green);
+    background-image: linear-gradient(to right, $light-blue, $light-green, $light-blue);
     height: auto;
-    width: 100%;
+    width: 104%;
     display: flex;
     font-weight: bold;
     border-radius: 15px;
     margin-left: 1%;
-    margin-top: 16%;
+    margin-top: 6%;
+    padding-bottom: 3%;
     flex-direction: column;
     font-family: 'Ubuntu', sans-serif;
     border: 2px solid $black;
@@ -63,11 +64,11 @@
     font-size: 3vw;
     background-color: $white;
     border-radius: 15px;
-    margin-top: 10%;
+    margin-top: 3%;
     height: auto;
-    width: 90%;
+    width: 20%;
     border: 2px solid $black;
-    margin-left: 5%;
+    margin-left: 40%;
     justify-content: center;
     align-items: center;
     font-family: 'Ubuntu', sans-serif;

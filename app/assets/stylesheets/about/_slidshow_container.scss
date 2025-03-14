@@ -14,15 +14,16 @@
 @media screen and (max-width: 576px) {
   .slidshow_container {
     position: relative;
-    background-image: linear-gradient(to right, $light-green, $light-blue);
+    background-image: linear-gradient(to right, $light-blue, $light-green, $light-blue);
     height: 100%;
-    width: 91%;
+    width: 105%;
     display: flex;
     justify-content: center;
     border-radius: 15px;
-    margin-left: 17%;
     flex-direction: column;
     border: 2px solid $black;
+    margin-left: 0%;
+    margin-top: 3%;
   }
 }
 

@@ -46,9 +46,9 @@ overflow-y: scroll;
 @media screen and (max-width: 576px) {
   .about_main_card {
     position: relative;
-    background-image: linear-gradient(to right, $light-blue, $light-green);
+    background-image: linear-gradient(to right, $light-blue, $light-green, $light-blue);
     height: 100%;
-    width: 111%;
+    width: 105%;
     display: flex;
     font-weight: bold;
     border-radius: 15px;
