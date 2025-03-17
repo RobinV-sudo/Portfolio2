@@ -79,13 +79,13 @@
 
   .icon-word-pdf {
     height: auto;
-    width: 70%;
+    width: 60%;
     border-radius: 15px;
     border: 2px solid $black;
-    margin-top: 8%;
+    margin-top: 5%;
     display: grid;
-    margin-left: 16%;
-    margin-bottom: 10%;
+    margin-left: 24%;
+    margin-bottom: 0%;
   }
 }
 
@@ -107,7 +107,7 @@
 
   .word-doc-title {
     color: #0E0000;
-    font-size: 5vw;
+    font-size: 4vw;
     background-color: #ffffff;
     border-radius: 15px;
     margin-top: 2%;
@@ -119,17 +119,18 @@
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     display: flex;
+    margin-left: 40%;
   }
 
   .icon-word-pdf {
     flex-direction: row;
     height: auto;
-    width: 50%;
+    width: 60%;
     border-radius: 15px;
     border: 2px solid $black;
-    margin-top: 8%;
+    margin-top: 55%;
     display: grid;
-    margin-left: 15%;
+    margin-left: -110%;
     margin-bottom: 10%;
   }
 }
@@ -152,19 +153,19 @@
 
   .word-doc-title {
     color: #0E0000;
-    font-size: 5vw;
+    font-size: 4vw;
     background-color: #ffffff;
     border-radius: 15px;
-    margin-top: 10%;
-    height: auto;
-    width: 115%;
+    margin-top: 2%;
+    height: 10%;
+    width: 15%;
     border: 2px solid #0E0000;
     justify-content: center;
     align-items: center;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     display: flex;
-    padding: 30%;
+    margin-left: 45%;
   }
 
   .icon-word-pdf {
@@ -173,9 +174,9 @@
     width: 50%;
     border-radius: 15px;
     border: 2px solid $black;
-    margin-top: 8%;
+    margin-top: 50%;
     display: grid;
-    margin-left: 15%;
+    margin-left: -100%;
     margin-bottom: 10%;
   }
 }
