@@ -22,17 +22,17 @@
 }
 
 .container-icon {
-  width: 40rem;
-  height: 18rem;
+  width: 85%;
+  height: auto;
 
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
-  margin-top: 9rem;
-  margin-left: 4rem;
+  margin-top: 22%;
+  margin-left: 10%;
   box-sizing: border-box;
 
   display: grid;
-  grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+  grid-template-columns: auto auto;
   grid-template-rows: 1fr;
   grid-gap: 15px;
 }
@@ -93,7 +93,7 @@
 @media screen and (max-width: 576px) {
   .icon_style {
     display: block;
-    width: 25%;
+    width: 10%;
     height: 25%;
     float: right;
     transform: translateY(0px);
@@ -114,17 +114,17 @@
   }
 
   .container-icon {
-    width: 40rem;
-    height: 18rem;
+    width: 85%;
+    height: auto;
 
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
-    margin-top: 9rem;
-    margin-left: 4rem;
+    margin-top: 20%;
+    margin-left: 9%;
     box-sizing: border-box;
 
     display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+    grid-template-columns: auto auto;
     grid-template-rows: 1fr;
     grid-gap: 15px;
   }
@@ -207,17 +207,17 @@
   }
 
   .container-icon {
-    width: 40rem;
-    height: 18rem;
+    width: 85%;
+    height: auto;
 
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
-    margin-top: 9rem;
-    margin-left: 4rem;
+    margin-top: 20%;
+    margin-left: 9%;
     box-sizing: border-box;
 
     display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+    grid-template-columns: auto auto;
     grid-template-rows: 1fr;
     grid-gap: 15px;
   }
@@ -300,17 +300,17 @@
   }
 
   .container-icon {
-    width: 40rem;
-    height: 18rem;
+    width: 85%;
+    height: auto;
 
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
-    margin-top: 9rem;
-    margin-left: 4rem;
+    margin-top: 18%;
+    margin-left: 12%;
     box-sizing: border-box;
 
     display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+    grid-template-columns: auto auto;
     grid-template-rows: 1fr;
     grid-gap: 15px;
   }
