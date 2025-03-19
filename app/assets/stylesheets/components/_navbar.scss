@@ -2,7 +2,7 @@
   position: relative;
   width: 90%;
   height: 65%;
-  background-image: linear-gradient(to right, $light-blue, $light-green, $light-blue);
+  background-image: linear-gradient(to right, $dark-blue, $dark-green, $dark-blue);
   border-radius: 50px;
   border: 2px solid rgb(0, 0, 0);
   margin-top: 2%;
@@ -17,6 +17,7 @@
   border-radius: 50px;
   border: 2px solid black;
   margin-left: 5%;
+  background-image: linear-gradient(to right, $light-blue, $light-green, $light-blue);
 }
 
 a.navbar-item {
@@ -25,7 +26,41 @@ a.navbar-item {
 }
 
 a.navbar-item {
-  background-color: $white;
+  background-image: linear-gradient(to right, $blue1, $blue2);
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  border-radius: 50px;
+  font-size: 2vw;
+  margin-top: 0.65%;
+  margin-right: 7%;
+  border: 2px solid $black;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  width: 24%;
+  height: 80%;
+  justify-content: center;
+  align-items: center;
+}
+
+a.navbar-item-1 {
+  background-image: linear-gradient(to right, $blue1, $blue2);
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  border-radius: 50px;
+  font-size: 2vw;
+  margin-top: 0.65%;
+  margin-right: 7%;
+  border: 2px solid $black;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  width: 24%;
+  height: 80%;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-item-2 {
+  background-image: linear-gradient(to left, $blue1, $blue2);
   color: rgb(0, 0, 0);
   text-decoration: none;
   border-radius: 50px;
@@ -62,12 +97,13 @@ a.navbar-item {
 .navbar {
   width: 100%;
   margin: 5%;
+  background-image: linear-gradient(to right, $dark-blue, $dark-green, $dark-blue);
 }
 
   .navbar-2 {
     width: 90%;
     height: 85%;
-    background-color: $white;
+    background-image: linear-gradient(to right, $light-blue, $light-green, $light-blue);
     border-radius: 50px;
     border: 2px solid black;
     margin-left: 5%;
@@ -101,7 +137,7 @@ a.navbar-item {
   position: relative;
   width: 90%;
   height: 65%;
-  background-image: linear-gradient(to right, $light-blue, $light-green, $light-blue);
+  background-image: linear-gradient(to right, $dark-blue, $dark-green, $dark-blue);
   border-radius: 50px;
   border: 2px solid rgb(0, 0, 0);
   margin-top: 2%;
@@ -112,7 +148,7 @@ a.navbar-item {
   .navbar-2 {
   width: 90%;
   height: 80%;
-  background-color: $white;
+  background-image: linear-gradient(to right, $light-blue, $light-green, $light-blue);
   border-radius: 50px;
   border: 2px solid black;
   margin-left: 5%;
@@ -145,7 +181,7 @@ a.navbar-item {
   position: relative;
   width: 70%;
   height: 60%;
-  background-image: linear-gradient(to right, $light-blue, $light-green, $light-blue);
+  background-image: linear-gradient(to right, $dark-blue, $dark-green, $dark-blue);
   border-radius: 50px;
   border: 2px solid rgb(0, 0, 0);
   margin-top: 4%;
@@ -154,7 +190,7 @@ a.navbar-item {
   .navbar-2 {
   width: 90%;
   height: 70%;
-  background-color: $white;
+  background-image: linear-gradient(to right, $light-blue, $light-green, $light-blue);
   border-radius: 50px;
   border: 2px solid black;
   margin-left: 5%;
