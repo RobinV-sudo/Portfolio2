@@ -47,62 +47,13 @@ a.navbar-item {
   float: left;
 }
 
-/*a.navbar-item-1 {
-  background-image: linear-gradient(to right, $blue1, $blue2);
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-  border-radius: 50px;
-  font-size: 2vw;
-  margin-top: 0.65%;
-  margin-right: 10%;
-  border: 2px solid $black;
-  font-family: 'Ubuntu', sans-serif;
-  font-weight: bold;
-  width: 24%;
-  height: 80%;
-  justify-content: center;
-  align-items: center;
-  float: inherit;
-}*/
-
-/*.navbar-item-2 {
-  background-image: linear-gradient(to left, $blue1, $blue2);
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-  border-radius: 50px;
-  font-size: 2vw;
-  margin-top: 0.65%;
-  margin-right: 5%;
-  border: 2px solid $black;
-  font-family: 'Ubuntu', sans-serif;
-  font-weight: bold;
-  width: 24%;
-  height: 80%;
-  justify-content: center;
-  align-items: center;
-  float: right;
-}*/
-
 @media screen and (max-width: 576px) {
   .container {
     flex-direction: column; /* Stack items vertically */
     align-items: stretch; /* Stretch items to full width */
   }
-
- // .navbar {
- //   position: relative;
- //   width: 70%;
- //   height: 65%;
- //   background-image: linear-gradient(to right, $light-blue, $light-green, $light-blue);
- //   border-radius: 50px;
- //   border: 2px solid rgb(0, 0, 0);
- //   margin-top: 2%;
-  //  margin-bottom: 2%;
- //   margin-left: 0%;
-//  }
-
 .navbar {
-  width: 100%;
+  width: 130%;
   margin: 5%;
   background-image: linear-gradient(to right, $dark-blue, $dark-green, $dark-blue);
 }
@@ -113,29 +64,26 @@ a.navbar-item {
     background-image: linear-gradient(to right, $light-blue, $light-green, $light-blue);
     border-radius: 50px;
     border: 2px solid black;
-    margin-left: 5%;
+    margin: auto;
   }
 
   a.navbar-item {
     display: flex;
-    float: right;
-  }
-
-  a.navbar-item {
-    background-color: $white;
+    background-color: ($blue2);
     color: rgb(0, 0, 0);
     text-decoration: none;
     border-radius: 50px;
-    font-size: 2vh;
-    margin-top: 0.50%;
-    margin-right: 7%;
+    font-size: 2vw;
+    margin-top: 0.5%;
+    margin-left: 2%;
     border: 2px solid $black;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
-    width: 24%;
+    width: 28%;
     height: 80%;
     justify-content: center;
     align-items: center;
+    float: left;
   }
 }
 
@@ -147,7 +95,7 @@ a.navbar-item {
   background-image: linear-gradient(to right, $dark-blue, $dark-green, $dark-blue);
   border-radius: 50px;
   border: 2px solid rgb(0, 0, 0);
-  margin-top: 2%;
+  margin-top: 5%;
   margin-bottom: 2%;
   margin-left: 0%;
   }
@@ -158,29 +106,26 @@ a.navbar-item {
   background-image: linear-gradient(to right, $light-blue, $light-green, $light-blue);
   border-radius: 50px;
   border: 2px solid black;
-  margin-left: 5%;
+  margin: auto;
   }
 
   a.navbar-item {
-  display: flex;
-  float: right;
-  }
-
-  a.navbar-item {
-  background-color: $white;
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-  border-radius: 50px;
-  font-size: 2vw;
-  margin-top: 1.2%;
-  margin-right: 7%;
-  border: 2px solid $black;
-  font-family: 'Ubuntu', sans-serif;
-  font-weight: bold;
-  width: 24%;
-  height: 80%;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    background-color: ($blue2);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 2vw;
+    margin-top: 1%;
+    margin-left: 2%;
+    border: 2px solid $black;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    width: 28%;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    float: left;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
@@ -191,7 +136,7 @@ a.navbar-item {
   background-image: linear-gradient(to right, $dark-blue, $dark-green, $dark-blue);
   border-radius: 50px;
   border: 2px solid rgb(0, 0, 0);
-  margin-top: 5%;
+  margin-top: 4%;
   }
 
   .navbar-2 {
@@ -200,8 +145,7 @@ a.navbar-item {
   background-image: linear-gradient(to right, $light-blue, $light-green, $light-blue);
   border-radius: 50px;
   border: 2px solid black;
-  margin-left: 5%;
-  margin-top: 2%;
+  margin: auto;
   }
 
   a.navbar-item {
