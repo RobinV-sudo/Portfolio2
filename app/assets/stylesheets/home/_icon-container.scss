@@ -93,8 +93,9 @@
 @media screen and (max-width: 576px) {
   .icon_style {
     display: block;
-    width: 10%;
-    height: 25%;
+    width: 15%;
+    height: auto;
+    padding: 0%;
     float: right;
     transform: translateY(0px);
     transition: all 0.5s;
@@ -185,9 +186,9 @@
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
   .icon_style {
     display: block;
-    width: 10%;
-    height: 20px;
-    padding: 5px;
+    width: 25%;
+    height: auto;
+    padding: 1%;
     float: right;
     transform: translateY(0px);
     transition: all 0.5s;
@@ -278,9 +279,9 @@
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
   .icon_style {
     display: block;
-    width: 15%;
-    height: 25px;
-    padding: 5px;
+    width: 25%;
+    height: 15%;
+    padding: 1%;
     float: right;
     transform: translateY(0px);
     transition: all 0.5s;
