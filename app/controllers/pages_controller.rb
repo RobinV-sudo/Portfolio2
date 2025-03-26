@@ -9,4 +9,7 @@ class PagesController < ApplicationController
   def project
   end
 
+  def test
+  end
+
 end
