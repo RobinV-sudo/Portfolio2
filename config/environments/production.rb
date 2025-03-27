@@ -57,7 +57,7 @@ Rails.application.configure do
 
   # Use a real queuing backend for Active Job (and separate queues per environment).
   # config.active_job.queue_adapter     = :resque
-  # config.active_job.queue_name_prefix = "Portfolio2_production"
+  # config.active_job.queue_name_prefix = "portfolio2_production"
 
   config.action_mailer.perform_caching = false
 
@@ -87,5 +87,4 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
-
 end
