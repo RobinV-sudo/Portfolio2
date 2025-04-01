@@ -7,7 +7,7 @@
   },
   "scripts": {
     "build": "webpack --config config/webpack.config.js",
-    "start": "webpack-dev-server --config config/webpack.dev.js",
+    "start": "webpack --config config/webpack.config.js",
     "dev": "webpack --watch --config config/webpack.config.js"
   },
   "dependencies": {

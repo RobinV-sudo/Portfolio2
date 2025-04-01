@@ -25,6 +25,6 @@ module.exports = {
       },
     ],
   },
-  devtool: 'source-map', // Enable source maps for easier debugging
-  mode: 'development', // Set mode to development
+  devtool: 'source-map', // Enable source maps for production
+  mode: 'production', // Set mode to production
 };
