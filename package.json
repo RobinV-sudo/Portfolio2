@@ -11,8 +11,13 @@
     "dev": "webpack --watch --config config/webpack.config.js"
   },
   "dependencies": {
-    "@rails/webpacker": "^5.4.4",
-    "debug": "^4.4.0"
+    "@rails/webpacker": "^6.0.0-beta.7",
+    "browserslist": "^4.24.4",
+    "debug": "^4.4.0",
+    "eta": "^3.5.0",
+    "mini-css-extract-plugin": "^2.9.2",
+    "postcss-preset-env": "^10.1.5",
+    "svgo": "^3.3.2"
   },
   "devDependencies": {
     "@babel/core": "^7.26.10",
