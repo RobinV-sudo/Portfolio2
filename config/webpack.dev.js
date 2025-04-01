@@ -1,10 +1,15 @@
 const path = require('path');
 
 module.exports = {
-  entry: './src/index.js', // Entry point for the application
-  output: {
-    filename: 'bundle.js', // Output bundle file
-    path: path.resolve(__dirname, 'dist'), // Output directory
+  mode: 'development', // Set mode to development
+  devtool: 'inline-source-map', // Enable source maps for easier debugging
+  devServer: {
+    static: {
+      directory: path.join(__dirname, 'dist'), // Serve content from the dist directory
+    },
+    compress: true, // Enable gzip compression
+    port: 9000, // Port for the dev server
+    hot: true, // Enable hot module replacement
   },
   module: {
     rules: [
@@ -25,6 +30,4 @@ module.exports = {
       },
     ],
   },
-  devtool: 'source-map', // Enable source maps for easier debugging
-  mode: 'development', // Set mode to development
 };
