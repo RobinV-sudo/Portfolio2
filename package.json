@@ -2,7 +2,7 @@
   "name": "your-app-name",
   "private": true,
   "engines": {
-    "node": "23.x",
+    "node": "20.x",
     "npm": "11.x"
   },
   "scripts": {
