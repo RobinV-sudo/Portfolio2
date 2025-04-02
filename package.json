@@ -2,8 +2,8 @@
   "name": "your-app-name",
   "private": true,
   "engines": {
-    "node": "23.11.0",
-    "npm": "11.2.0"
+    "node": "23.x",
+    "npm": "11.x"
   },
   "scripts": {
     "build": "webpack --config config/webpack.config.js",
