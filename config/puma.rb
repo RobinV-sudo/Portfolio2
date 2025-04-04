@@ -39,5 +39,15 @@ workers ENV.fetch("WEB_CONCURRENCY") { 2 }
 #
 preload_app!
 
+on_worker_boot do
+  # Clean up any debugger threads that might interfere with worker processes
+  Thread.list.each do |thread|
+    if thread.name&.start_with?('DEBUGGER__')
+      thread.kill
+      puts "Cleaned up debugger thread: #{thread.name}"
+    end
+  end
+end
+
 # Allow puma to be restarted by `bin/rails restart` command.
 plugin :tmp_restart
