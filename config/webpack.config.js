@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  entry: './src/index.js', // Entry point for the application
+  entry: './app/javascript/application.js', // Standard Rails entry point
   output: {
     filename: 'bundle.js', // Output bundle file
     path: path.resolve(__dirname, 'dist'), // Output directory

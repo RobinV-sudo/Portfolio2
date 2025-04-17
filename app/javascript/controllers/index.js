@@ -1,11 +1,14 @@
-// Import and register all your controllers from the importmap under controllers/*
+// Entry point for the application
+const http = require('http');
 
-import { application } from "controllers/application"
+const hostname = '0.0.0.0'; // Use 0.0.0.0 to allow Heroku to bind to the correct IP
+const port = process.env.PORT || 8080; // Use the port provided by Heroku
 
-// Eager load all controllers defined in the import map under controllers/**/*_controller
-import { eagerLoadControllersFrom } from "@hotwired/stimulus-loading"
-eagerLoadControllersFrom("controllers", application)
-
-// Lazy load controllers as they appear in the DOM (remember not to preload controllers in import map!)
-// import { lazyLoadControllersFrom } from "@hotwired/stimulus-loading"
-// lazyLoadControllersFrom("controllers", application)
+const server = http.createServer((req, res) => {
+  res.statusCode = 200;
+  res.setHeader('Content-Type', 'text/plain');
+  res.end('Hello, Webpack!\n');
+});
+server.listen(port, hostname, () => {
+  console.log(`Server running at http://${hostname}:${port}/`);
+});
